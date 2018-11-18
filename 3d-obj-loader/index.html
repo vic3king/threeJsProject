@@ -1,0 +1,53 @@
+<html>
+
+<head>
+	<title>Three.js Boilerplate</title>
+	<style>
+		body {
+			font-family: Monospace;
+			background-color: #f0f0f0;
+			margin: 0px;
+			overflow: hidden;
+		}
+
+		#canvas {
+			background-color: #000;
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;
+			margin: 100px;
+			padding: 0px;
+			position: static;
+			/* fixed or static */
+			top: 100px;
+			left: 100px;
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;
+			padding: 0px;
+			position: static;
+		}
+	</style>
+</head>
+
+<body>
+	<img src="/3d-obj-loader/img/B183.jpg" id="button1">
+	<img src="/3d-obj-loader/img/B166.jpg" id="button2">
+	<img src="/3d-obj-loader/img/B174.jpg" id="button3">
+	<img src="/3d-obj-loader/img/B185.jpg" id="button4">
+	<!-- <img src="/3d-obj-loader/img/B183.jpg" id="button1">
+	<img src="/3d-obj-loader/img/B183.jpg" id="button1"> -->
+	<div id="canvas"> </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+	<script src="../3d-obj-loader/assets/OrbitControls.js"></script>
+	<script src="../3d-obj-loader/assets/MTLLoader.js"></script>
+	<script src="../3d-obj-loader/assets/OBJLoader.js"></script>
+	<script src="../3d-obj-loader/assets/Projector.js"></script>
+	<script src="../3d-obj-loader/assets/CanvasRenderer.js"></script>
+	<script src="../3d-obj-loader/scripts.js"></script>
+</body>
+
+</html>
